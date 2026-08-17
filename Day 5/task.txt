@@ -1,2 +1,3 @@
 Create a nav bar for home , contact , about , service
 Download feature
+mailto:
