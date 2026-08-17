@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List with HTML Formatting Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f5f7ff;
+            color: #222;
+        }
+
+        h1,
+        h2 {
+            color: #1d3557;
+        }
+
+        .task-list {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        details {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            margin: 12px 0;
+            padding: 10px 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            color: #0f172a;
+        }
+
+        .tag-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .tag-box div {
+            background: #eef2ff;
+            border-radius: 8px;
+            padding: 10px;
+            border: 1px solid #dbeafe;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="task-list">
+        <h1>HTML Task List</h1>
+
+        <details>
+            <summary>Task 1: Format the key points</summary>
+            <p>Use <b>bold</b> and <strong>strong emphasis</strong> to highlight important work.</p>
+        </details>
+
+        <details>
+            <summary>Task 2: Add style to practice notes</summary>
+            <p>Write the notes in <i>italics</i> and <em>emphasized text</em> to make them readable.</p>
+        </details>
+
+        <details>
+            <summary>Task 3: Mark completion and edits</summary>
+            <p>Show what is <del>old</del> and what is <ins>new</ins> in the task update.</p>
+        </details>
+
+        <details>
+            <summary>Task 4: Use technical text formatting</summary>
+            <p>Include code like <code>print("Hello")</code> and formulas like H<sub>2</sub>O and x<sup>2</sup>.</p>
+        </details>
+
+        <h2>Previous Tags</h2>
+        <div class="tag-box">
+            <div><b>Bold</b> - &lt;b&gt;</div>
+            <div><strong>Strong</strong> - &lt;strong&gt;</div>
+            <div><i>Italic</i> - &lt;i&gt;</div>
+            <div><em>Emphasis</em> - &lt;em&gt;</div>
+            <div><u>Underline</u> - &lt;u&gt;</div>
+            <div><mark>Highlight</mark> - &lt;mark&gt;</div>
+            <div><small>Small text</small> - &lt;small&gt;</div>
+            <div><abbr title="HyperText Markup Language">HTML</abbr> - &lt;abbr&gt;</div>
+            <div><cite>Learning is growth</cite> - &lt;cite&gt;</div>
+            <div>
+                <blockquote>"Keep learning."</blockquote> - &lt;blockquote&gt;
+            </div>
+        </div>
+
+        <h2>Additional Formatting Tags</h2>
+        <div class="tag-box">
+            <div><dfn>Definition</dfn> - &lt;dfn&gt;</div>
+            <div><bdi>bdi example</bdi> - &lt;bdi&gt;</div>
+            <div><bdo dir="rtl">Right-to-left</bdo> - &lt;bdo&gt;</div>
+            <div><data value="42">42</data> - &lt;data&gt;</div>
+            <div><meter value="0.6">60%</meter> - &lt;meter&gt;</div>
+            <div><progress value="70" max="100">70%</progress> - &lt;progress&gt;</div>
+            <div>
+                <figure><img src="https://via.placeholder.com/80" alt="placeholder">
+                    <figcaption>Caption</figcaption>
+                </figure> - &lt;figure&gt; &amp; &lt;figcaption&gt;
+            </div>
+            <div><ruby>漢<rt>kan</rt></ruby> - &lt;ruby&gt; &lt;rt&gt;</div>
+            <div><s>Struck</s> - &lt;s&gt;</div>
+            <div><span style="color:#e11d48">Colored</span> - &lt;span style&gt;</div>
+        </div>
+
+        <h2>New Tags</h2>
+        <div class="tag-box">
+            <div><del>Deleted text</del> - &lt;del&gt;</div>
+            <div><ins>Inserted text</ins> - &lt;ins&gt;</div>
+            <div>H<sub>2</sub>O - &lt;sub&gt;</div>
+            <div>x<sup>2</sup> - &lt;sup&gt;</div>
+            <div><code>console.log()</code> - &lt;code&gt;</div>
+            <div>
+                <pre>Line 1
+Line 2</pre> - &lt;pre&gt;
+            </div>
+            <div><kbd>Ctrl + C</kbd> - &lt;kbd&gt;</div>
+            <div><samp>Sample output</samp> - &lt;samp&gt;</div>
+            <div><var>x</var> - &lt;var&gt;</div>
+            <div><time datetime="2026-08-14">August 14</time> - &lt;time&gt;</div>
+            <div><q>Small steps matter</q> - &lt;q&gt;</div>
+            <div><tt>Typewriter text</tt> - &lt;tt&gt;</div>
+        </div>
+    </div>
+</body>
+
+</html>

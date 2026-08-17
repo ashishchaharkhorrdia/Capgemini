@@ -1,0 +1,99 @@
+JAVA SCRIPT
+rendering engine understand the code in the browser
+
+WEB: The World Wide Web (WWW) is a system of interconnected web pages and resources accessed through the Internet using web browsers.
+
+WEB PAGE: A single document/page on the Web, usually written using HTML and viewed in a browser.
+
+WEBSITE: A collection of related webpages available under one domain name.
+          
+
+                      (http request) 
+# user to -> clint/browser -> server
+        (http Response)    <-
+
+@@  why we use HTML = to create a Webpages
+
+
+WHAT IS STATIC PAGES AND DYNAMIC PAGES IN HTML ?
+
+1. Static Web Page
+
+A static web page is a webpage whose content remains the same for every user unless the developer manually changes the HTML/CSS files.
+
+Example:
+A simple portfolio or an "About Us" page.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This content is fixed.</p>
+</body>
+</html>
+
+Here, the browser receives the same HTML content each time the page is opened.
+
+Features:
+
+Simple to create
+Fast loading
+Usually uses HTML and CSS
+Content doesn't automatically change
+No database is required in basic static pages
+
+ 
+2. Dynamic Web Page
+
+A dynamic web page can display different or changing content depending on the user, input, database information, time, etc.
+
+For example, a shopping website can show your name after login and display products stored in a database.
+
+A dynamic website may use:
+
+HTML/CSS → structure and design
+JavaScript → changes content in the browser
+PHP, Python, Node.js, Java, etc. → server-side processing
+Database → stores and retrieves information
+
+Example:
+
+<h1 id="message">Welcome</h1>
+
+<script>
+    document.getElementById("message").innerHTML =
+        "Welcome, Abhay!";
+</script>
+
+The content can be changed based on information or user interaction.
+
+Feature                                         Static                        vs                   Dynamic
+                                                                                                       
+Content                                   	Fixed                                              Can change
+User interaction                         	Limited	                                           Usually more interactive
+Database	                                Usually not required	                           Often used
+Technologies                               	HTML, CSS	                                   HTML, CSS, JS + backend/database
+Speed                                          	Generally faster                                   May require processing
+Changes                                         Developer changes files	                           Content can change automatically
+Example	                                        Portfolio, About page	                           Instagram, Amazon, Banking website
+
+
+Static = Same content
+Dynamic = Changing content
+
+👉 HTML itself is mainly used to create the structure of a webpage. A page becomes dynamic through JavaScript and/or server-side programming and databases.
+
+DEFINATION:
+
+Static web page: A webpage that displays fixed content and remains the same until its source code is manually modified.
+
+Dynamic web page: A webpage whose content can change automatically based on user input, database data, time, or other conditions.
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+UNPAID TAGS =  / PAID TAGS
+HTML ELEMENT 

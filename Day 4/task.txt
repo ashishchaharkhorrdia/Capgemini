@@ -1,0 +1,1 @@
+Create an HTML task file that includes a list of tasks implemented using the <details> element and incorporates 15 different HTML formatting tags.

@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+img {
+    -webkit-filter: drop-shadow(5px 5px 5px blue);
+    filter: drop-shadow(5px 5px 5px blue);
+}
+
+.q {
+    -webkit-filter: drop-shadow(5px 5px 5px red);
+    filter: drop-shadow(5px 5px 5px white);
+}
